@@ -1,0 +1,43 @@
+/* line 2, ../../../.rvm/gems/ruby-2.0.0-p247/gems/neat-compass-1.5.0/stylesheets/neat/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 8, ../sass/navBar.scss */
+.navBar {
+  width: 100%;
+}
+/* line 10, ../sass/navBar.scss */
+.navBar ul {
+  list-style-type: none;
+}
+/* line 13, ../sass/navBar.scss */
+.navBar .navButton {
+  display: none;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  border: solid 1px #666666;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 13, ../sass/navBar.scss */
+  .navBar .navButton {
+    display: block;
+  }
+}
+/* line 24, ../sass/navBar.scss */
+.navBar .navButton div {
+  border-top: solid 2px #666666;
+  height: 3px;
+  width: 98%;
+  margin-bottom: 3px;
+}
+/* line 25, ../sass/navBar.scss */
+.navBar .navButton div:first-child {
+  margin-top: 3px;
+}
